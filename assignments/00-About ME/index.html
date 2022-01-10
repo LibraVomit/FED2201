@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style> .avatar {
+      vertical-align: middle;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+       </style>
+   
+    <script>
+        function myFunction() {
+          document.getElementById("demo").innerHTML = "You Clicked me";
+        }
+        </script>
+
+       
+    
+</head>
+<body>
+  <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2020/08/Neytiri-Jake-Sully-Avatar-Avatar-2-concept-art.jpg" alt= avatar picture alt="Avatar" class="avatar">
+  Avatar</img> 
+<header>
+    <nav>
+            <a href="#aboutme">About Me</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#lorem">Lorem</a>
+            
+            <a href="#buttons">Buttons</a>
+            <a href="#audio">Music</a>
+            <a href="#Form">Forms</a>
+
+    </nav>
+</header>
+
+    <h1 id="aboutme">About Me: Ronda Wilkins</h1>
+    <p>My name is Ronda but most people call me Rah. I have always had an itch for all things technology. I have been in the field service industry for about six years and realized that I liked the software side a little more than being in the field. Don't get me wrong, jumping in crawspaces with dead animals and snakes was fun but these old bones are ready to play it a little safer!!! </p>
+
+    <h2 id="hobbies">My Favorite Hobbies</h2>
+<ol>
+    <li>Watching Netflix</li>
+
+    <li>Inventing new things and seeing how long it takes for someone with the funds to get the ideas!</li>
+
+    <li>Facetiming with my cousins to talk about nothing and everything . lol</li>
+</ol>
+
+<section id="lorem"><h2>Lorem</h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</section>
+
+<br>
+
+
+<section id="buttons">
+<h4> Button</h4>
+
+
+
+<button onclick="myFunction()">Click me</button>
+<p id="demo"></p><br>
+
+<button onclick="start()">Start</button>
+<button onclick="finish()">Finish</button>
+<script>
+    
+    
+    function start() {
+     console.log("start button clicked!")
+     alert("start button clicked!")
+     
+     
+    }
+    
+    function finish() {
+     console.log("finish button clicked!")
+     alert("finish button clicked!")
+     
+     
+    }
+    </script>
+  </section>
+
+
+  <br>
+<section id="audio">
+  <audio
+  controls
+  src="https://soundcloud.com/siamusic/sia-chandelier">
+     alt=  Your browser does not support the
+      element.
+      <source src="https://soundcloud.com/siamusic/sia-chandelier" type="audio/mp3">
+</audio>
+</section>
+
+<br>
+
+
+<br>
+<article id="form">
+  <h2>HTML Forms</h2>
+
+  
+    <form action="">
+<label>First Name:</label>
+        <input firstname="firstname" id="firstname" placeholder="Type first name here"><br>
+<label>Last Name:</label>
+        <input lastname="lastname" id="lastname" placeholder="Type last name here"><br>
+<label>Email</label>
+        <input email="email" id="email" placeholder="Enter email here">
+        
+       
+        <input type="submit" value="Submit">
+<br>
+
+  
+    
+   
+    </form>
+   </article>
+ <br>
+  
+
+</body>
+</html>
